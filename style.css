@@ -2,18 +2,8 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-/* a {
-  color: #c52d2f;
-  -webkit-transition: color 300ms, background-color 300ms;
-  -moz-transition: color 300ms, background-color 300ms;
-  -o-transition: color 300ms, background-color 300ms;
-  transition: color 300ms, background-color 300ms;
-} */
-/* a:hover,
-a:focus {
-  color: #d43133;
-} */
 
+/* Head part  */
 .breadcrumbs {
   background: #00336e;
   padding: 9px 0;
@@ -80,7 +70,51 @@ nav {
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
+/* Head Part  */
 
+/* Content Part   */
+.content-part {
+  height: 100vh;
+  background: -webkit-linear-gradient(to right, #5b86e5, #36d1dc);
+  background: linear-gradient(to right, #5b86e5, #36d1dc);
+}
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #d2cebe;
+}
+.carousel-indicators .active {
+  background-color: #6dbd44;
+}
+.slide img {
+  z-index: 1;
+  width: 100%;
+  border-radius: 5px;
+  height: 600px;
+}
+.bnr-icon {
+  opacity: 0;
+}
+.bnr-icon:hover {
+  color: #fff;
+  background: #6dbd44 !important;
+}
+#carouselExampleIndicators:hover .bnr-icon {
+  display: block;
+  color: #fff;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 45px;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 8px 15px;
+}
+
+/* Content Part   */
+
+/* Responsive Design  */
 @media (max-width: 992px) {
   .title .logo img {
     width: 90%;
