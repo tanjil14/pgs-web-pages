@@ -52,10 +52,10 @@ body {
   font-size: 30px;
   color: #605573;
 }
-.cont ul li {
+.navbar ul li {
   padding-right: 45px;
 }
-.cont ul li a {
+.navbar ul li a {
   font-size: 13px;
   font-weight: bold;
 }
